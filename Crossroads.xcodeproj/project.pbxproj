@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F33CB0BBF31393CC25767B3 /* libPods-CrossroadsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 171227D4D060DB4E6656054E /* libPods-CrossroadsTests.a */; };
+		7AABF7798A0C32FBDFA278AD /* libPods-CrossroadsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A7CEC3410D300360F76101 /* libPods-CrossroadsUITests.a */; };
+		A54CCBD71F9ACFCB004F5A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCBD61F9ACFCB004F5A90 /* main.m */; };
+		A54CCBDA1F9ACFCB004F5A90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCBD91F9ACFCB004F5A90 /* AppDelegate.m */; };
+		A54CCBDD1F9ACFCB004F5A90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCBDC1F9ACFCB004F5A90 /* ViewController.m */; };
+		A54CCBE01F9ACFCB004F5A90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54CCBDE1F9ACFCB004F5A90 /* Main.storyboard */; };
+		A54CCBE21F9ACFCB004F5A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54CCBE11F9ACFCB004F5A90 /* Assets.xcassets */; };
+		A54CCBE51F9ACFCB004F5A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54CCBE31F9ACFCB004F5A90 /* LaunchScreen.storyboard */; };
+		A54CCBF01F9ACFCB004F5A90 /* CrossroadsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCBEF1F9ACFCB004F5A90 /* CrossroadsTests.m */; };
+		A54CCBFB1F9ACFCB004F5A90 /* CrossroadsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCBFA1F9ACFCB004F5A90 /* CrossroadsUITests.m */; };
+		A54CCC0A1F9AE632004F5A90 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCC091F9AE632004F5A90 /* MapViewController.m */; };
+		A54CCC0C1F9AEB40004F5A90 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54CCC0B1F9AEB40004F5A90 /* CoreLocation.framework */; };
+		A54CCC1C1F9AFCB7004F5A90 /* TrafficLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCC1B1F9AFCB7004F5A90 /* TrafficLightViewController.m */; };
+		A54CCC1F1F9B7897004F5A90 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54CCC1E1F9B7897004F5A90 /* AudioToolbox.framework */; };
+		A54CCC221F9BAEB2004F5A90 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54CCC211F9BAEB2004F5A90 /* AVFoundation.framework */; };
+		A54CCC251F9BB44D004F5A90 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CCC241F9BB44D004F5A90 /* NetworkManager.m */; };
+		BD2BCCD4CC1C26E98965CC1B /* libPods-Crossroads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B99BD50028C9F9B557C7EF53 /* libPods-Crossroads.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54CCBEC1F9ACFCB004F5A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54CCBCA1F9ACFCB004F5A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54CCBD11F9ACFCB004F5A90;
+			remoteInfo = Crossroads;
+		};
+		A54CCBF71F9ACFCB004F5A90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54CCBCA1F9ACFCB004F5A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54CCBD11F9ACFCB004F5A90;
+			remoteInfo = Crossroads;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171227D4D060DB4E6656054E /* libPods-CrossroadsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossroadsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C13CB419DE015CDC22D397 /* Pods-CrossroadsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossroadsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossroadsUITests/Pods-CrossroadsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		604A3C025255C5577453D19D /* Pods-Crossroads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossroads.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crossroads/Pods-Crossroads.release.xcconfig"; sourceTree = "<group>"; };
+		8394D220D286D3CC77F22839 /* Pods-CrossroadsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossroadsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossroadsTests/Pods-CrossroadsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C89C67A7DDA3327CAE567CC /* Pods-CrossroadsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossroadsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrossroadsUITests/Pods-CrossroadsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A54CCBD21F9ACFCB004F5A90 /* Crossroads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crossroads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54CCBD61F9ACFCB004F5A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54CCBD81F9ACFCB004F5A90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A54CCBD91F9ACFCB004F5A90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A54CCBDB1F9ACFCB004F5A90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A54CCBDC1F9ACFCB004F5A90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A54CCBDF1F9ACFCB004F5A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54CCBE11F9ACFCB004F5A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54CCBE41F9ACFCB004F5A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54CCBE61F9ACFCB004F5A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54CCBEB1F9ACFCB004F5A90 /* CrossroadsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossroadsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54CCBEF1F9ACFCB004F5A90 /* CrossroadsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossroadsTests.m; sourceTree = "<group>"; };
+		A54CCBF11F9ACFCB004F5A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54CCBF61F9ACFCB004F5A90 /* CrossroadsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossroadsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54CCBFA1F9ACFCB004F5A90 /* CrossroadsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossroadsUITests.m; sourceTree = "<group>"; };
+		A54CCBFC1F9ACFCB004F5A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54CCC081F9AE57E004F5A90 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Map/MapViewController.h; sourceTree = "<group>"; };
+		A54CCC091F9AE632004F5A90 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Map/MapViewController.m; sourceTree = "<group>"; };
+		A54CCC0B1F9AEB40004F5A90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A54CCC1A1F9AFC81004F5A90 /* TrafficLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficLightViewController.h; sourceTree = "<group>"; };
+		A54CCC1B1F9AFCB7004F5A90 /* TrafficLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficLightViewController.m; sourceTree = "<group>"; };
+		A54CCC1D1F9B11B7004F5A90 /* Crossroads.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crossroads.entitlements; sourceTree = "<group>"; };
+		A54CCC1E1F9B7897004F5A90 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A54CCC201F9BAE7A004F5A90 /* Ultimate.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ultimate.m4r; sourceTree = "<group>"; };
+		A54CCC211F9BAEB2004F5A90 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A54CCC231F9BB438004F5A90 /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		A54CCC241F9BB44D004F5A90 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		B99BD50028C9F9B557C7EF53 /* libPods-Crossroads.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crossroads.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0B52E1CEDCDB41743472DA /* Pods-Crossroads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crossroads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crossroads/Pods-Crossroads.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A7CEC3410D300360F76101 /* libPods-CrossroadsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrossroadsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF17B02924800CE091E7DE9B /* Pods-CrossroadsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrossroadsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrossroadsTests/Pods-CrossroadsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54CCBCF1F9ACFCB004F5A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54CCC221F9BAEB2004F5A90 /* AVFoundation.framework in Frameworks */,
+				A54CCC1F1F9B7897004F5A90 /* AudioToolbox.framework in Frameworks */,
+				A54CCC0C1F9AEB40004F5A90 /* CoreLocation.framework in Frameworks */,
+				BD2BCCD4CC1C26E98965CC1B /* libPods-Crossroads.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBE81F9ACFCB004F5A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F33CB0BBF31393CC25767B3 /* libPods-CrossroadsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBF31F9ACFCB004F5A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AABF7798A0C32FBDFA278AD /* libPods-CrossroadsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CF7C63BA0FB92888E8F42C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF0B52E1CEDCDB41743472DA /* Pods-Crossroads.debug.xcconfig */,
+				604A3C025255C5577453D19D /* Pods-Crossroads.release.xcconfig */,
+				8394D220D286D3CC77F22839 /* Pods-CrossroadsTests.debug.xcconfig */,
+				FF17B02924800CE091E7DE9B /* Pods-CrossroadsTests.release.xcconfig */,
+				9C89C67A7DDA3327CAE567CC /* Pods-CrossroadsUITests.debug.xcconfig */,
+				34C13CB419DE015CDC22D397 /* Pods-CrossroadsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75026AB4486082C337A70B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCC211F9BAEB2004F5A90 /* AVFoundation.framework */,
+				A54CCC1E1F9B7897004F5A90 /* AudioToolbox.framework */,
+				A54CCC0B1F9AEB40004F5A90 /* CoreLocation.framework */,
+				B99BD50028C9F9B557C7EF53 /* libPods-Crossroads.a */,
+				171227D4D060DB4E6656054E /* libPods-CrossroadsTests.a */,
+				F4A7CEC3410D300360F76101 /* libPods-CrossroadsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54CCBC91F9ACFCB004F5A90 = {
+			isa = PBXGroup;
+			children = (
+				A54CCBD41F9ACFCB004F5A90 /* Crossroads */,
+				A54CCBEE1F9ACFCB004F5A90 /* CrossroadsTests */,
+				A54CCBF91F9ACFCB004F5A90 /* CrossroadsUITests */,
+				A54CCBD31F9ACFCB004F5A90 /* Products */,
+				74CF7C63BA0FB92888E8F42C /* Pods */,
+				75026AB4486082C337A70B08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A54CCBD31F9ACFCB004F5A90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCBD21F9ACFCB004F5A90 /* Crossroads.app */,
+				A54CCBEB1F9ACFCB004F5A90 /* CrossroadsTests.xctest */,
+				A54CCBF61F9ACFCB004F5A90 /* CrossroadsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54CCBD41F9ACFCB004F5A90 /* Crossroads */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCC1D1F9B11B7004F5A90 /* Crossroads.entitlements */,
+				A54CCBD81F9ACFCB004F5A90 /* AppDelegate.h */,
+				A54CCBD91F9ACFCB004F5A90 /* AppDelegate.m */,
+				A54CCBDB1F9ACFCB004F5A90 /* ViewController.h */,
+				A54CCBDC1F9ACFCB004F5A90 /* ViewController.m */,
+				A54CCBDE1F9ACFCB004F5A90 /* Main.storyboard */,
+				A54CCBE11F9ACFCB004F5A90 /* Assets.xcassets */,
+				A54CCBE31F9ACFCB004F5A90 /* LaunchScreen.storyboard */,
+				A54CCBE61F9ACFCB004F5A90 /* Info.plist */,
+				A54CCBD51F9ACFCB004F5A90 /* Supporting Files */,
+				A54CCC081F9AE57E004F5A90 /* MapViewController.h */,
+				A54CCC091F9AE632004F5A90 /* MapViewController.m */,
+				A54CCC1A1F9AFC81004F5A90 /* TrafficLightViewController.h */,
+				A54CCC1B1F9AFCB7004F5A90 /* TrafficLightViewController.m */,
+				A54CCC201F9BAE7A004F5A90 /* Ultimate.m4r */,
+				A54CCC231F9BB438004F5A90 /* NetworkManager.h */,
+				A54CCC241F9BB44D004F5A90 /* NetworkManager.m */,
+			);
+			path = Crossroads;
+			sourceTree = "<group>";
+		};
+		A54CCBD51F9ACFCB004F5A90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCBD61F9ACFCB004F5A90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A54CCBEE1F9ACFCB004F5A90 /* CrossroadsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCBEF1F9ACFCB004F5A90 /* CrossroadsTests.m */,
+				A54CCBF11F9ACFCB004F5A90 /* Info.plist */,
+			);
+			path = CrossroadsTests;
+			sourceTree = "<group>";
+		};
+		A54CCBF91F9ACFCB004F5A90 /* CrossroadsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54CCBFA1F9ACFCB004F5A90 /* CrossroadsUITests.m */,
+				A54CCBFC1F9ACFCB004F5A90 /* Info.plist */,
+			);
+			path = CrossroadsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54CCBD11F9ACFCB004F5A90 /* Crossroads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54CCBFF1F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "Crossroads" */;
+			buildPhases = (
+				2DD93DF71DB06185BC569D73 /* [CP] Check Pods Manifest.lock */,
+				A54CCBCE1F9ACFCB004F5A90 /* Sources */,
+				A54CCBCF1F9ACFCB004F5A90 /* Frameworks */,
+				A54CCBD01F9ACFCB004F5A90 /* Resources */,
+				62A8372EB2DC69E4526A1B7E /* [CP] Embed Pods Frameworks */,
+				773205692D9508DEA8D3B514 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crossroads;
+			productName = Crossroads;
+			productReference = A54CCBD21F9ACFCB004F5A90 /* Crossroads.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54CCBEA1F9ACFCB004F5A90 /* CrossroadsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54CCC021F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "CrossroadsTests" */;
+			buildPhases = (
+				AFF6B224DF51A87889B67A20 /* [CP] Check Pods Manifest.lock */,
+				A54CCBE71F9ACFCB004F5A90 /* Sources */,
+				A54CCBE81F9ACFCB004F5A90 /* Frameworks */,
+				A54CCBE91F9ACFCB004F5A90 /* Resources */,
+				8A9612E0362397C1DA78214F /* [CP] Embed Pods Frameworks */,
+				2D58A444D09693B47C7DA8AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54CCBED1F9ACFCB004F5A90 /* PBXTargetDependency */,
+			);
+			name = CrossroadsTests;
+			productName = CrossroadsTests;
+			productReference = A54CCBEB1F9ACFCB004F5A90 /* CrossroadsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54CCBF51F9ACFCB004F5A90 /* CrossroadsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54CCC051F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "CrossroadsUITests" */;
+			buildPhases = (
+				C2081E2E458E08C5331E01C8 /* [CP] Check Pods Manifest.lock */,
+				A54CCBF21F9ACFCB004F5A90 /* Sources */,
+				A54CCBF31F9ACFCB004F5A90 /* Frameworks */,
+				A54CCBF41F9ACFCB004F5A90 /* Resources */,
+				92CDBF8BF8C6A03A43401A58 /* [CP] Embed Pods Frameworks */,
+				AEA0FAE88D5EEE9191935742 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54CCBF81F9ACFCB004F5A90 /* PBXTargetDependency */,
+			);
+			name = CrossroadsUITests;
+			productName = CrossroadsUITests;
+			productReference = A54CCBF61F9ACFCB004F5A90 /* CrossroadsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54CCBCA1F9ACFCB004F5A90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Morris Chen";
+				TargetAttributes = {
+					A54CCBD11F9ACFCB004F5A90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					A54CCBEA1F9ACFCB004F5A90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A54CCBD11F9ACFCB004F5A90;
+					};
+					A54CCBF51F9ACFCB004F5A90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JC5UA2XZJW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A54CCBD11F9ACFCB004F5A90;
+					};
+				};
+			};
+			buildConfigurationList = A54CCBCD1F9ACFCB004F5A90 /* Build configuration list for PBXProject "Crossroads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54CCBC91F9ACFCB004F5A90;
+			productRefGroup = A54CCBD31F9ACFCB004F5A90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54CCBD11F9ACFCB004F5A90 /* Crossroads */,
+				A54CCBEA1F9ACFCB004F5A90 /* CrossroadsTests */,
+				A54CCBF51F9ACFCB004F5A90 /* CrossroadsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54CCBD01F9ACFCB004F5A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54CCBE51F9ACFCB004F5A90 /* LaunchScreen.storyboard in Resources */,
+				A54CCBE21F9ACFCB004F5A90 /* Assets.xcassets in Resources */,
+				A54CCBE01F9ACFCB004F5A90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBE91F9ACFCB004F5A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBF41F9ACFCB004F5A90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D58A444D09693B47C7DA8AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossroadsTests/Pods-CrossroadsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DD93DF71DB06185BC569D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62A8372EB2DC69E4526A1B7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossroads/Pods-Crossroads-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773205692D9508DEA8D3B514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crossroads/Pods-Crossroads-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9612E0362397C1DA78214F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossroadsTests/Pods-CrossroadsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CDBF8BF8C6A03A43401A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossroadsUITests/Pods-CrossroadsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEA0FAE88D5EEE9191935742 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrossroadsUITests/Pods-CrossroadsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF6B224DF51A87889B67A20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2081E2E458E08C5331E01C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54CCBCE1F9ACFCB004F5A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54CCBDD1F9ACFCB004F5A90 /* ViewController.m in Sources */,
+				A54CCBDA1F9ACFCB004F5A90 /* AppDelegate.m in Sources */,
+				A54CCBD71F9ACFCB004F5A90 /* main.m in Sources */,
+				A54CCC1C1F9AFCB7004F5A90 /* TrafficLightViewController.m in Sources */,
+				A54CCC251F9BB44D004F5A90 /* NetworkManager.m in Sources */,
+				A54CCC0A1F9AE632004F5A90 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBE71F9ACFCB004F5A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54CCBF01F9ACFCB004F5A90 /* CrossroadsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54CCBF21F9ACFCB004F5A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54CCBFB1F9ACFCB004F5A90 /* CrossroadsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54CCBED1F9ACFCB004F5A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54CCBD11F9ACFCB004F5A90 /* Crossroads */;
+			targetProxy = A54CCBEC1F9ACFCB004F5A90 /* PBXContainerItemProxy */;
+		};
+		A54CCBF81F9ACFCB004F5A90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54CCBD11F9ACFCB004F5A90 /* Crossroads */;
+			targetProxy = A54CCBF71F9ACFCB004F5A90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54CCBDE1F9ACFCB004F5A90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54CCBDF1F9ACFCB004F5A90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54CCBE31F9ACFCB004F5A90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54CCBE41F9ACFCB004F5A90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54CCBFD1F9ACFCB004F5A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54CCBFE1F9ACFCB004F5A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54CCC001F9ACFCB004F5A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0B52E1CEDCDB41743472DA /* Pods-Crossroads.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = Crossroads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.Crossroads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A54CCC011F9ACFCB004F5A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604A3C025255C5577453D19D /* Pods-Crossroads.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = Crossroads/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.Crossroads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A54CCC031F9ACFCB004F5A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8394D220D286D3CC77F22839 /* Pods-CrossroadsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = CrossroadsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.CrossroadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossroads.app/Crossroads";
+			};
+			name = Debug;
+		};
+		A54CCC041F9ACFCB004F5A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF17B02924800CE091E7DE9B /* Pods-CrossroadsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = CrossroadsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.CrossroadsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crossroads.app/Crossroads";
+			};
+			name = Release;
+		};
+		A54CCC061F9ACFCB004F5A90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C89C67A7DDA3327CAE567CC /* Pods-CrossroadsUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = CrossroadsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.CrossroadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Crossroads;
+			};
+			name = Debug;
+		};
+		A54CCC071F9ACFCB004F5A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C13CB419DE015CDC22D397 /* Pods-CrossroadsUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JC5UA2XZJW;
+				INFOPLIST_FILE = CrossroadsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blitzingeagle.CrossroadsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Crossroads;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54CCBCD1F9ACFCB004F5A90 /* Build configuration list for PBXProject "Crossroads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54CCBFD1F9ACFCB004F5A90 /* Debug */,
+				A54CCBFE1F9ACFCB004F5A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54CCBFF1F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "Crossroads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54CCC001F9ACFCB004F5A90 /* Debug */,
+				A54CCC011F9ACFCB004F5A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54CCC021F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "CrossroadsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54CCC031F9ACFCB004F5A90 /* Debug */,
+				A54CCC041F9ACFCB004F5A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54CCC051F9ACFCB004F5A90 /* Build configuration list for PBXNativeTarget "CrossroadsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54CCC061F9ACFCB004F5A90 /* Debug */,
+				A54CCC071F9ACFCB004F5A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54CCBCA1F9ACFCB004F5A90 /* Project object */;
+}

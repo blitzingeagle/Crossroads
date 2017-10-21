@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - GooglePlaces (2.3.1):
+    - GoogleMaps/Base (= 2.3.1)
+  - PubNub (4.6.1):
+    - PubNub/Core (= 4.6.1)
+  - PubNub/Core (4.6.1)
+  - Spark-SDK (0.6.0):
+    - Spark-SDK/Helpers (= 0.6.0)
+    - Spark-SDK/SDK (= 0.6.0)
+  - Spark-SDK/Helpers (0.6.0)
+  - Spark-SDK/SDK (0.6.0):
+    - AFNetworking (~> 3.0)
+    - Spark-SDK/Helpers
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - PubNub (~> 4)
+  - Spark-SDK
+  - Toast (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  GooglePlaces: 4a7b22debfa1af65017b82943431822607e45201
+  PubNub: 408ba6402a9c712418da738adda12ccc339cbb1e
+  Spark-SDK: abb1436245a3e43cbc00cfdaddcad66e047666ef
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 2284fc8cea9d7ae35579285ccd52e089e55d6cf4
+
+COCOAPODS: 1.2.1
